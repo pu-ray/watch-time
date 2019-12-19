@@ -9,9 +9,16 @@ body {
     position: relative;
     letter-spacing:0.5px;
 }
+.star-rating {
+  line-height:32px;
+  font-size:1.25em;
+}
+
+.star-rating .fa-star{color: black;}
+
 .navbar-collapse .btn{
   position: absolute;
-  top: 180%;
+  top: 120%;
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
@@ -1408,7 +1415,7 @@ h2.price {
 }
 ul.main-navigation {
 	display: inline-block;
-	width: 30%;
+	width: 40%;
 	padding: 20px 0;
 	bottom: 100%;
 	margin: 0;
@@ -2148,7 +2155,7 @@ span.review-count, span.review-edit {
 	width: 70px;
 	height: auto;
 	margin: 0 15px 10px 0;
-	float: left
+	float: left;
 }
 #column-left .blog-content, #column-right .blog-content {
 	overflow: hidden;
