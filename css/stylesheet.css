@@ -9,6 +9,22 @@ body {
     position: relative;
     letter-spacing:0.5px;
 }
+.navbar-collapse .btn{
+  position: absolute;
+  top: 180%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: white;
+  color: black;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+
+}
 .marketing .col-lg-4 {
 	text-align: center;
 }
@@ -38,8 +54,9 @@ body {
     min-height: 500px;
 }*/
 .bg_image { 
-    background: url(../image/beard.jpg) 50% 50% no-repeat; 
+    background: url(../image/2.jpg) 50% 50% no-repeat; 
     min-height: 800px;
+    background-size: cover;
 }
 
 
@@ -238,7 +255,7 @@ div.required .control-label:before {
 	margin: 40px 0 10px 0;
 	display: inline-block;
 	
-	
+	bottom: 120%;
 	width: 100px;
 	height: 100px;
 }
@@ -1391,8 +1408,9 @@ h2.price {
 }
 ul.main-navigation {
 	display: inline-block;
-	width: 100%;
+	width: 30%;
 	padding: 20px 0;
+	bottom: 100%;
 	margin: 0;
 	vertical-align: top;
 	text-align: center;
@@ -1506,9 +1524,9 @@ ul.main-navigation > li.menu-last ul ul {
 }
 #column-left .blog .blog-heading h3, #column-right .blog .blog-heading h3,  .column-left .productblock-title,  .column-right .productblock-title,  .column-left .cms-title,  .column-right .cms-title {
 	font-size: 16px;
-    color: #000;
+    color: white;
     font-weight: 500;
-    border-bottom: 1px solid #000;
+    border-bottom: 1px solid white;
     padding: 0 0 20px;
 	margin: 0;
 }
