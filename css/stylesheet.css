@@ -9,6 +9,17 @@ body {
     position: relative;
     letter-spacing:0.5px;
 }
+/*body {
+  background-color:#ce3635;
+  text-align: center;
+  color:#fff;
+  padding-top:10em;
+}*/
+
+* { color:#fff; text-decoration: none;}
+.typewrite{
+	top: 200%;
+}
 .star-rating {
   line-height:32px;
   font-size:1.25em;
