@@ -198,6 +198,24 @@
                
               
               <button class="btn">Order now</button>
+              <div class="box">
+                <span class="paypal-logo">
+                  <i style="color: #253b80;font-size: 30px">Pay</i><i style="color: #179bd7;font-size: 30px">Pal</i>
+                </span>
+                
+                <br />
+                
+                <button class="paypal-button">
+                  <span class="paypal-button-title" style="color: black;font-size: 20px">
+                    Buy now with
+                  </span>
+                  <span class="paypal-logo" >
+                    <i style="color:#253b80; font-size: 30px">Pay</i><i style="color: #179bd7;font-size: 30px">Pal</i>
+                    <br>
+                    <h3> audreykizito@gmail.com</h3>
+                  </span>
+                </button>
+              </div>
                   
                   
            
@@ -256,7 +274,7 @@
             var period = elements[i].getAttribute('data-period');
             if (toRotate) {
               new TxtType(elements[i], JSON.parse(toRotate), period);
-            }
+            };
         }
         // INJECT CSS
         var css = document.createElement("style");
@@ -268,11 +286,15 @@
 <div class="container marketing">
   <div class="row">
     <h3 class="productblock-title" style="text-align: center">Our Products</h3>
+    <div class="don">
+        <img class="img-circle" src="image/all.jpg" alt="Generic placeholder image" style="width: 700px;height: 300px">
+    </div>
     <h4 class="title-subline" style="text-align: center">Nu suave is natural men’s skin care line. All products are infused with sandalwood (which is the selling points). The specialist in charge of making the products has been making skin care products for 20+ years and is familiar with all the new skin care techniques. Nu suave combines old knowledge with new technology to create perfect products that are both modern and filled with ancient remedies
     </h4>
     <div class="col-lg-4">
-      <!-- <img class="img-circle" src="" alt="Generic placeholder image" width="140" height="140"> -->
-      <h2> Luxury Beard Oil</h2>
+        <h2> Luxury Beard Oil</h2>
+      <img class="img-circle" src="image/oil.jpg" alt="Generic placeholder image" style="width: 300px;height: 300px">
+    
       <p style="color: black">Made with a blend of natural oils that nourish. This beard oil helps soften, maintain, and strengthen your beard </p>
       <p><a class="btn btn-default" href="#" role="button">Read More</a></p>
     </div><!-- /.col-lg-4 -->
@@ -285,6 +307,7 @@
     <div class="col-lg-4">
       <!-- <img class="img-circle" src="image" alt="Generic placeholder image" width="140" height="140"> -->
       <h2>Luxury Sandalwood Gel Cleanser</h2>
+      <img class="img-circle" src="image/cleanser.jpg" alt="Generic placeholder image" style="width: 300px;height: 300px">
       <p style="color: black"> The gel cleanser refreshes your skin by getting rid of dead skin cells, excess oil, and dirt</p>
       <p><a class="btn btn-default" href="#" role="button">Read More</a></p>
     </div><!-- /.col-lg-4 -->
@@ -532,16 +555,20 @@
           <div class="footer-contact">
             <h5 class="contact-title footer-title">Contact Us</h5>
             <ul class="ul-wrapper">
+
               <li><i class="fa fa-map-marker"></i><span class="location2" style="color: black"> Toronto<br style="color: black">
                  Canada<br style="color: black">
                </span></li>
               <li><i class="fa fa-envelope"></i><span class="mail2"><a href="#">nusuave.me@gmail.com</a></span></li>
               <li><i class="fa fa-mobile"></i><span class="phone2" style="color: black">+64 7993406<br></span></li>
+             
+
             </ul>
           </div>
         </div>
       </div>
     </div>
+    
     <div class="row">
       <div class="footer-top-cms">
         <div class="col-sm-7">

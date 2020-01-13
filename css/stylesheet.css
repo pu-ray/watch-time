@@ -1,6 +1,7 @@
+
+
 body {
     font-family: "Roboto",Arial,Helvetica,sans-serif;
-    
     font-weight: 400;
     color:white;
     font-size: 14px;
@@ -24,7 +25,9 @@ body {
   line-height:32px;
   font-size:1.25em;
 }
-
+.don{
+	text-align: center;
+}
 .star-rating .fa-star{color: black;}
 
 .navbar-collapse .btn{
